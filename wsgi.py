@@ -4,7 +4,7 @@ from bottle import run, route, Response
 
 @route('/')
 def index():
-    return Response('Build: 9')
+    return Response('Build: 10')
 
 if __name__ == "__main__":
     run(host='0.0.0.0',
